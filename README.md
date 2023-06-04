@@ -1,6 +1,5 @@
-# GameGable
-first 15 days of Game analysis
-#Burada Group_by fonksiyonunu kullanarak yeni bir satir acarak ek Min date satri yarattim, daha sonra min dat ve date satirlarini mukayise ede bilmem icin ek satir yarattim, daha sonra date ve min date arasindaki farki ek sutunda gordukden sonra bu dosyayi excele donusturdum ve excel uzerinde manuel olarak ilk 15 gunluk secenek kullanarak ,ilk 15 gunluk 10 farkli oyunun kullanim oranini görmüs oldum. 
+
+
 oyun2=dat %>% group_by(Game.Name,Partner.Group)%>% summarise(mindate=min(Date),Players)
 `summarise()` has grouped output by 'Game.Name', 'Partner.Group'. You can override
 using the `.groups` argument.
